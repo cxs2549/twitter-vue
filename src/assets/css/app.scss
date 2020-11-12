@@ -1,0 +1,39 @@
+@import "theme-colors";
+@import "breakpoints";
+
+body {
+    background: var(--app-background-color);
+    color: var(--text-color);
+    transition: all ease-in-out 150ms;
+    font-size: 16px;
+    scrollbar-width: none;
+    // height: 180vh;
+    font-family: "IBM Plex Sans", Arial, Helvetica, sans-serif;
+    color: #F4F0DB;
+}
+
+svg,
+img,
+span {
+    cursor: pointer;
+}
+
+/*
+* === THEME SWITCH ===
+*/
+input.theme-switch {
+    display: none;
+}
+
+input.theme-switch + label {
+    cursor: pointer;
+}
+
+input.theme-switch:not(:checked) + label:hover {
+    cursor: pointer;
+}
+
+input.theme-switch + label:active,
+input.theme-switch:checked + label {
+    cursor: pointer;
+}
