@@ -1,4 +1,4 @@
-# reddit-vue
+# twitter-vue
 
 ## Project setup
 ```
